@@ -1,0 +1,64 @@
+
+body{
+  background-color: #dedede;
+}
+.container{
+  width: 300px;
+  height: auto;
+  border-radius: 15px;
+  /* border: 2px solid black; */
+  background-color: #fff;
+  transform: rotate(-5deg);
+  transition: transform .3s;
+}
+.container:hover{
+  transform: rotate(0);
+}
+/* .card{
+  padding: 5px;
+} */
+.container:hover img{
+  translate: scale(2);
+}
+
+footer{
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  background: #11c243;
+  background: linear-gradient(90deg, rgb(47, 194, 189) 0%, rgba(116, 214, 144, 1) 100%);
+  color: #fff;
+}
+img{
+  border-radius: 50%;
+  border: 5px solid #fff;
+  height: 60px;
+  width: 50px;
+  transition: transform .3s;
+}
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
